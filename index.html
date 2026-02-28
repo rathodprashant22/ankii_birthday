@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Birthday Surprise ✨</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-glow bg-glow--one"></div>
+    <div class="bg-glow bg-glow--two"></div>
+    <canvas id="particle-canvas" aria-hidden="true"></canvas>
+
+    <main class="experience">
+      <section class="hero reveal">
+        <p class="eyebrow">A little surprise made with heart</p>
+        <h1>Happy Birthday, <span>Beautiful Soul</span> 💖</h1>
+        <p class="subtitle">
+          This page is just a soft reminder: your smile can still light up even the quietest days.
+        </p>
+        <button id="open-letter" class="btn-primary">Tap to open your birthday letter</button>
+      </section>
+
+      <section class="card-grid reveal">
+        <article class="glass-card">
+          <h2>What makes you special</h2>
+          <ul>
+            <li>Your calm strength.</li>
+            <li>Your way of making simple moments feel magical.</li>
+            <li>Your kindness that leaves a mark.</li>
+          </ul>
+        </article>
+
+        <article class="glass-card">
+          <h2>Birthday wish</h2>
+          <p>
+            I hope this year gives you peace, growth, laughter, and all the love you truly deserve.
+            Keep shining in your own way — always.
+          </p>
+        </article>
+      </section>
+
+      <section class="timeline reveal">
+        <h2>Little moments</h2>
+        <div class="timeline-track">
+          <div class="timeline-item">First memory that made me smile ✨</div>
+          <div class="timeline-item">A phase of admiration 🌙</div>
+          <div class="timeline-item">Today: wishing you happiness 🎂</div>
+        </div>
+      </section>
+
+      <section id="letter" class="letter reveal" aria-live="polite">
+        <h2>For you, on your day</h2>
+        <p>
+          No pressure, no expectations — just gratitude. You were and are someone truly meaningful to me.
+          On your birthday, I only want to send warmth and respect your way.
+        </p>
+        <p>
+          If life ever allows, I’d be happy to hear from you again. Until then, may your journey be full of
+          joy, health, and beautiful surprises.
+        </p>
+        <p class="signature">— With genuine wishes 🤍</p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
